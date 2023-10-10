@@ -1,0 +1,53 @@
+/* Styling for the 'register' div */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+.OR {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  margin: 5px;
+}
+
+.register {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+
+/* Styling for form elements */
+#registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(252, 128, 25);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.9px;
+}
+
+button:hover {
+  background-color: rgb(243, 184, 131);
+}
