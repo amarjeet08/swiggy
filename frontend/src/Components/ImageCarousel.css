@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .carousel-div {
+  height: 100px;
+  width: 30%;
+  align-items: center;
+} */
+
+.image-div {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  overflow: scroll;
+  margin: 10px;
+  scrollbar-width: none;
+}
+
+.image-div::-webkit-scrollbar {
+  width: 0.5rem; /* Adjust as needed to control scrollbar width */
+}
+
+.image-div::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Hide the thumb */
+}
+
+.image-carousel {
+  margin-right: 15px;
+  width: 550px;
+}

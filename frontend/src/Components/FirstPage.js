@@ -86,7 +86,7 @@ const FirstPage = () => {
 
                 <div className='box'>
                     <div className='portion-two'>
-                        <img src='./swiggyAssets/Lunch1_vlksgq.webp' alt='image of lunch' />
+                        <img src='./swiggyAssets/Lunch1_vlksgq.webp' alt='logo of lunch' />
                     </div>
                 </div>
 
